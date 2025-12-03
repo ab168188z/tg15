@@ -1,0 +1,147 @@
+﻿.rizhuti_v2-widget-slideer-img>.container {
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+.module.slider.img-center {
+    position: relative;
+}
+
+.owl.owl-loaded {
+    display: block;
+}
+
+.rizhuti_v2-widget-division {
+    background: #fff;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 1.5rem;
+}
+
+.rizhuti_v2-widget-division>.container {
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+.rizhuti_v2-widget-division .icon-sahpe {
+    font-size: 1rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #ffffff;
+    background-color: #8399ff;
+    border-radius: 10px;
+    display: inline-table;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.rizhuti_v2-widget-division .hover-rounded .icon-sahpe i {
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.rizhuti_v2-widget-division .hover-rounded .icon-sahpe i {
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.rizhuti_v2-widget-division .overflow {
+    overflow: hidden;
+}
+
+.ml-3, .mx-3 {
+    margin-left: 1rem !important;
+}
+
+.rizhuti_v2-widget-division .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+.rizhuti_v2-widget-division .desc {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+
+.onepage-section {
+    position: relative;
+    overflow: hidden;
+}
+.section-padding {
+    padding: 70px 0;
+    padding: 4.375rem 0;
+}
+
+.onepage-section:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    content: " ";
+    z-index: 1;
+}
+
+.onepage-section .container-fluid, .onepage-section .container {
+    position: relative;
+    z-index: 5;
+}
+
+.section-about .section-title-area {
+    margin-bottom: 30px;
+}
+.section-title-area {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+@media screen and (min-width: 940px) {
+    .section-title-area .section-title {
+        font-size: 40px;
+        letter-spacing: 3.5px;
+    }
+}
+.section-title-area .section-title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    position: relative;
+    margin-bottom: 0;
+
+}
+
+.section-desc {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-top: 2.5rem;
+}
+
+.section-about .row>div {
+    margin-top: 30px;
+}
+.section-about .about-image {
+    text-align: center;
+}
+.section-about .about-image img {
+    margin-bottom: 30px;
+}
+.section-about .row>div {
+    margin-top: 30px;
+}

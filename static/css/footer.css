@@ -1,0 +1,205 @@
+﻿footer {
+    width: 100%;
+    height: auto;
+    margin: 30px auto 0;
+    background: #f9f9fa;
+    padding: 41px 5% 30px;
+    box-sizing: border-box;
+}
+footer .foo_box .foo_top {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 750px) {
+    footer{
+        padding: 20px 5%;
+    }
+    footer .foo_box .foo_top {
+        display: none;
+    }
+    footer .foo_box .foo_bom{
+        margin-top: 0px !important;
+    }
+}
+footer .foo_box .foo_top .fb_left {
+    width: 295px;
+    font-size: 16px;
+}
+footer .foo_box .foo_top .fb_left .fbl_one {
+    font-weight: 700;
+    margin-bottom: 30px;
+
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+
+}
+footer .foo_box .foo_top .fb_left .fbl_two {
+    font-size: 15px;
+
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+
+}
+footer .foo_box .foo_top .fb_left .fbl_two a{
+    color: #777;
+}
+footer .foo_box .foo_top .fb_con {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+footer .foo_box .foo_top .fb_con a {
+    color: #000;
+}
+footer .foo_box .foo_top .fb_con .menu li {
+    margin-bottom: 15px;
+
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+footer .foo_box .foo_top .fb_con .menu li a{
+    color: #777;
+}
+
+footer .foo_box .foo_top .fb_con .menu li a:hover{
+    color: #26A4E4;
+}
+footer .foo_box .foo_top .fb_con .menu li:nth-child(1) a{
+    color: #000;
+}
+footer .foo_box .foo_top .fb_con .menu li:nth-child(1) a:hover{
+    color: #000;
+}
+footer .foo_box .foo_top .fb_con .menu li:nth-child(1) {
+    font-weight: 700;
+
+
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+
+}
+footer .foo_box .foo_top .fb_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer .foo_box .foo_top .fb_right select {
+    display: block;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    opacity: 0;
+    top: 24px;
+}
+footer .foo_box .foo_top .fb_right img {
+    width: 80px;
+    height: 80px;
+}
+footer .foo_box .foo_top .fb_right span{
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 12px;
+}
+footer .foo_box .foo_bom {
+    margin-top: 50px;
+    text-align: center;
+
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.app-download-ad {
+    position: fixed;
+    z-index: 99999999;
+    bottom: 15px;
+    background: #f8f8f8;
+    width: calc(100% - 16px);
+    left: 8px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 7px 2px #ccc
+}
+
+.app-download-ad-icon {
+    width: 70px;
+    padding: 10px;
+    min-width: 70px;
+    max-width: 70px
+}
+
+.app-download-ad-icon img {
+    max-width: 100%;
+    border-radius: 10px
+}
+
+.app-download-ad-text {
+    padding: 10px
+}
+
+.app-download-ad-text .line1 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000
+}
+
+.app-download-ad-text .line2 {
+    font-size: 12px;
+    color: #595959;
+    margin-top: 1rem;
+}
+
+.app-download-ad-button {
+    max-width: 150px;
+    padding: 10px 20px;
+    min-width: fit-content
+}
+
+.app-download-ad-button a {
+    border: 1px solid #dfdfdf;
+    color: #000!important;
+    padding: 5px 15px 5px 20px;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5px
+}
+
+.app-download-ad-left {
+    display: flex;
+    align-items: center
+}
+
+.app-download-ad-close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    color: #9d9797;
+    font-size: 16px
+}
