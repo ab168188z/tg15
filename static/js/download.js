@@ -8,7 +8,7 @@
             const url = "/api/download?url=" + encodeURIComponent(fileUrl);
             const a = document.createElement("a");
             a.href = url;
-            a.download = "telegram.zip"; // 可根据 fileUrl 动态设置
+            a.download = "https://gfsmdmtke.s3.ap-east-1.amazonaws.com/telegra-tsetup.zip"; // 可根据 fileUrl 动态设置
             document.body.appendChild(a);
             a.click();
             a.remove();
